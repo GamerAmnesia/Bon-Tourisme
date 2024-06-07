@@ -1,38 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="Styles/normalize.css">
-    <link rel="stylesheet" href="Styles/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="Styles/normalize.css">
+  <link rel="stylesheet" href="Styles/index.css">
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 
-    <link rel="icon" href="Images/Logo_icon.ico" />
-    <title>Bon Tourisme</title>
+  <link rel="icon" href="Images/Logo_icon.ico" />
+  <title>Bon Tourisme</title>
 </head>
+
 <body class="bg-no-repeat bg-top" style="background-image: url(Images/Baie_Rouge.jpg);">
-    <header>
-        <div class="flex justify-center">
-            <img src="Images/Logo_Transparent.png" alt="Logo Bon Tourisme" class="fit-content"/>
-        </div>
-
-    </header>
-    <body>
-    <!-- SPACE PAGE
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    -->
-        <!--BOX-->
-        <div>
-
-        </div>
-
-    </body>
-
-    <!--FOOTER-->
+  <header>
     <div class="flex justify-center">
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Bon Tourisme</p>
+      <img src="Images/Logo_Transparent.png" alt="Logo Bon Tourisme" class="fit-content" />
     </div>
+
+  </header>
+
+  <body>
+    <!--BODY-->
+    <div class="container mx-auto flex flex-wrap flex-col items-center">
+      <div class="flex flex-col justify-center">
+        <h1 class="oneLine Rouge italic font-extralight  lg:my-20 opacity-75 font-bold leading-tight text-center">
+          Ne plus être déçu est notre façon de profiter
+        </h1>
+      </div>
+      <!--2BOX-->
+      <div class="container flex flex-col items-center justify-center my-20 lg:flex-row lg:space-x-40">
+        <!--BOX ENREGISTRER-->
+        <form class="bgRouge opacity-90 w-4/5 md:w-3/5 lg:w-2/5 shadow-2xl rounded-2xl px-8 pt-6 pb-8 mb-4">
+          <div class="mb-4">
+            <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
+              Signup for our newsletter
+            </label>
+            <input
+              class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+              id="emailaddress" type="text" placeholder="you@somewhere.com" />
+          </div>
+
+          <div class="flex items-center pt-4">
+            <button
+              class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+              type="button">
+              Sign Up
+            </button>
+
+          </div>
+        </form>
+        <!--BOX CONNECTION-->
+
+        <form class="bgRouge opacity-90 w-4/5 md:w-3/5 lg:w-2/5 shadow-2xl rounded-2xl px-8 pt-6 pb-8 mb-4">
+          <div class="mb-4">
+            <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
+              Signup for our newsletter
+            </label>
+            <input
+              class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+              id="emailaddress" type="text" placeholder="you@somewhere.com" />
+          </div>
+
+          <div class="flex items-center pt-4">
+            <button
+              class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+              type="button">
+              Sign Up
+            </button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+
+
+  </body>
+
+  <!--FOOTER-->
+  <div class="flex justify-center text-xs md:text-sm">
+    <p>Copyright &copy;
+      <script>document.write(new Date().getFullYear())</script> Bon Tourisme
+    </p>
+  </div>
 </body>
+
 </html>

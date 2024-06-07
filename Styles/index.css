@@ -1,0 +1,11 @@
+.Rouge{
+    color: #763538;
+}
+.bgRouge{
+    background-color: #763538;
+}
+.oneLine{
+    font-size: clamp(1rem, 4vw, 3rem);
+    /*  La fonction clamp ajuste dynamiquement la taille du texte 
+    entre 1rem et 3rem en fonction de la largeur de la fenêtre (4vw = 4% de la largeur de la fenêtre). */
+}
