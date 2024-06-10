@@ -1,26 +1,47 @@
-.Rouge{
-    color: #763538 !important;
-}
-.bgRouge{
-    background-color: #763538 !important;
-}
 .oneLine{
-    font-size: clamp(1rem, 4vw, 2rem) !important;
+    font-size: clamp(1rem, 5vw, 2rem) !important;
     /*  La fonction clamp ajuste dynamiquement la taille du texte 
     entre 1rem et 3rem en fonction de la largeur de la fenêtre (4vw = 4% de la largeur de la fenêtre). */
 }
-header{
+.test{
+    border: solid 1px green !important;
+}
+#bgTOP{
     background-image: url(../Images/Baie_Rouge.jpg);
-    background-position: top;
+    background-position: 50% 40%;
     background-repeat: no-repeat;
 }
+
+
+
+
+
+.swiper-wrapper {
+    width: 100%;
+    height: max-content !important;
+    padding-bottom: 64px !important;
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+    position: relative;
+    }
+    .swiper-pagination-bullet {
+    background: #4F46E5;
+    }
+    .swiper-pagination-bullet-active {
+    background: #4F46E5 !important;
+    }
+
+
+
+
+
 @media (max-width: 768px){
     body{
         background-image: url(../Images/Baie_Rouge.jpg);
         background-position: top;
         background-repeat: no-repeat;
     }
-    header{
+    #bgTOP{
         background-image: none;
     }
 }
