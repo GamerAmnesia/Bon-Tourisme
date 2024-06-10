@@ -13,67 +13,32 @@
   <link rel="icon" href="Images/Logo_icon.ico" />
   <title>Bon Tourisme</title>
 </head>
-
-<body class="bg-no-repeat bg-top" style="background-image: url(Images/Baie_Rouge.jpg);">
-  <header>
+<!--class="bg-no-repeat bg-top" style="background-image: url(Images/Baie_Rouge.jpg); -->
+<body class="bgRouge">
+<div class="flex flex-col h-screen justify-between">
+  <!--HEADER-->
+  <header class="">
     <div class="flex justify-center">
       <img src="Images/Logo_Transparent.png" alt="Logo Bon Tourisme" class="fit-content" />
+    </div>
+    <div class="flex justify-center">
+      <h1 class="oneLine Rouge italic font-extralight  md:mb-20 opacity-75 font-bold leading-tight text-center">
+        Ne plus être déçu est notre façon de profiter
+      </h1>
     </div>
 
   </header>
 
-  <body>
-    <!--BODY-->
+<!--BODY-->
+  <body class="mb-auto h-10">
     <div class="container mx-auto flex flex-wrap flex-col items-center">
+      <!--
       <div class="flex flex-col justify-center">
-        <h1 class="oneLine Rouge italic font-extralight  lg:my-20 opacity-75 font-bold leading-tight text-center">
+        <h1 class="oneLine Rouge italic font-extralight  lg:my-5 opacity-75 font-bold leading-tight text-center">
           Ne plus être déçu est notre façon de profiter
         </h1>
       </div>
-      <!--2BOX-->
-      <div class="container flex flex-col items-center justify-center my-20 lg:flex-row lg:space-x-40">
-        <!--BOX ENREGISTRER-->
-        <form class="bgRouge opacity-90 w-4/5 md:w-3/5 lg:w-2/5 shadow-2xl rounded-2xl px-8 pt-6 pb-8 mb-4">
-          <div class="mb-4">
-            <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
-              XX
-            </label>
-            <input
-              class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              id="emailaddress" type="text" placeholder="X@test.com" />
-          </div>
-
-          <div class="flex items-center pt-4">
-            <button
-              class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              type="button">
-              X
-            </button>
-
-          </div>
-        </form>
-        <!--BOX CONNECTION-->
-
-        <form class="bgRouge opacity-90 w-4/5 md:w-3/5 lg:w-2/5 shadow-2xl rounded-2xl px-8 pt-6 pb-8 mb-4">
-          <div class="mb-4">
-            <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
-              XX
-            </label>
-            <input
-              class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              id="emailaddress" type="text" placeholder="X@test.com" />
-          </div>
-
-          <div class="flex items-center pt-4">
-            <button
-              class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-              type="button">
-              X
-            </button>
-          </div>
-        </form>
-
-      </div>
+    -->
 
     </div>
 
@@ -81,11 +46,14 @@
   </body>
 
   <!--FOOTER-->
-  <div class="flex justify-center text-xs md:text-sm">
-    <p>Copyright &copy;
-      <script>document.write(new Date().getFullYear())</script> Bon Tourisme
-    </p>
-  </div>
+  <footer class="h-10">
+    <div class="flex justify-center text-xs md:text-sm">
+      <p>Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> Bon Tourisme
+      </p>
+    </div>
+  </footer>
+</div>
 </body>
 
 </html>
