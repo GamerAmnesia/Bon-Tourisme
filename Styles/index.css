@@ -3,47 +3,30 @@
     /*  La fonction clamp ajuste dynamiquement la taille du texte 
     entre 1rem et 3rem en fonction de la largeur de la fenêtre (4vw = 4% de la largeur de la fenêtre). */
 }
-.test{
-    border: solid 1px green !important;
-}
 #bgTOP{
     background-image: url(../Images/Baie_Rouge.jpg);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
+.test{
+    border: solid 1px green !important;
+}
 
+
+
+/* FONCTIONNE PAS SUR FIREFOX */
 ::-webkit-scrollbar-track {
     background-color: #ff0000;
 }
-
 ::-webkit-scrollbar {
     height: 6px;
-    background-color: #F5F5F5;
+    background-color: #ff00bf;
 }
-
 ::-webkit-scrollbar-thumb {
-    background-color: #3d4852;
+    background-color: #09ff00;
     border-radius: 3px;
 }
-
-
-.swiper-wrapper {
-    width: 100%;
-    height: max-content !important;
-    padding-bottom: 64px !important;
-    -webkit-transition-timing-function: linear !important;
-    transition-timing-function: linear !important;
-    position: relative;
-    }
-    .swiper-pagination-bullet {
-    background: #4F46E5;
-    }
-    .swiper-pagination-bullet-active {
-    background: #4F46E5 !important;
-    }
-
-
 
 
 
