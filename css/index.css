@@ -1,15 +1,15 @@
-.oneLine{
+.oneLine {
     font-size: clamp(1rem, 5vw, 2rem) !important;
     /*  La fonction clamp ajuste dynamiquement la taille du texte 
     entre 1rem et 3rem en fonction de la largeur de la fenêtre (4vw = 4% de la largeur de la fenêtre). */
 }
-#bgTOP{
+#bgTOP  {
     background-image: url(../Images/Baie_Rouge.jpg);
     background-position: 50% 40%;
     background-repeat: no-repeat;
 }
 
-.test{
+.test {
     border: solid 1px green !important;
 }
 
@@ -31,12 +31,12 @@
 
 
 @media (max-width: 768px){
-    body{
+    body {
         background-image: url(../Images/Baie_Rouge.jpg);
         background-position: top;
         background-repeat: no-repeat;
     }
-    #bgTOP{
+    #bgTOP { 
         background-image: none;
     }
 }
