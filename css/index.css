@@ -5,9 +5,10 @@
 }
 #bgTOP  {
     background-image: url(../Images/Baie_Rouge.jpg);
-    background-position: 50% 40%;
+    background-position: 50% 38%;
     background-repeat: no-repeat;
 }
+
 
 .test {
     border: solid 1px green !important;
